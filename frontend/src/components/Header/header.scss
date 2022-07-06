@@ -1,0 +1,23 @@
+.header {
+  background-color: var(--color-bg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+
+  &_logo {
+    height: 6.8rem;
+  }
+
+  ul {
+    display: flex;
+    li img {
+      height: 5.7rem;
+      margin: 0 2rem;
+      cursor: pointer;
+    }
+  }
+}
